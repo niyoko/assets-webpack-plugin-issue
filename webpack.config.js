@@ -8,6 +8,7 @@ module.exports = {
     path: path.join(__dirname, 'dist'),
     filename: '[name]-bundle-[contenthash].js',
     publicPath: '/js/',
+    crossOriginLoading: 'anonymous',
   },
   plugins: [
     new AssetsPlugin({
